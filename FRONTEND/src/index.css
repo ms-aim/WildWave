@@ -1,0 +1,11 @@
+/* Ensure the body and root take up the full height of the screen */
+body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  background-color: #f4f7f6; /* Subtle light background */
+}
